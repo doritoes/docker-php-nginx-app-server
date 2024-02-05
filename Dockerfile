@@ -41,7 +41,7 @@ COPY config/fpm-pool.conf ${PHP_INI_DIR}/php-fpm.d/www.conf
 COPY config/php.ini ${PHP_INI_DIR}/conf.d/custom.ini
 
 # Tweak php-fpm config
-RUN sed -i -e "s/;extension=pdo_mysql/extension=pdo_mysql/g" /etc/php/83/php.ini
+RUN sed -i -e "s/;extension=pdo_mysql/extension=pdo_mysql/g" /etc/php83/php.ini
 
 # Configure supervisord
 COPY config/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
