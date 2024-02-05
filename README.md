@@ -6,7 +6,6 @@ Repository: [https://github.com/doritoes/docker-php-nginx-app-server]
 
 * Built on the lightweight and secure Alpine Linux distribution
 * Forked fom best practice repository [https://github.com/TrafeX/docker-php-nginx]
-* Very small Docker image size (+/-40MB)
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/doritoes/php-nginx-app-server.svg)](https://hub.docker.com/r/doritoes/php-nginx-app-server/)
 ![nginx 1.24](https://img.shields.io/badge/nginx-1.24-brightgreen.svg)
